@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+h1 {
+  padding: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.search-group {
+  display: flex;
+  flex-direction: row;
+}
+
+.search-input {
+  margin-right: 10px;
+}
+
+.out-text-range {
+  white-space: nowrap; /* Ngăn văn bản ngắt dòng */
+  text-overflow: ellipsis; /* Hiển thị dấu "..." khi văn bản quá dài */
+  max-width: 50px;
+}

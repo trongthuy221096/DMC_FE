@@ -1,0 +1,12 @@
+@media (max-width: 997px) {
+    .list-icon-hidden {
+        display: block !important;
+    }
+}
+.list-icon:hover {
+    cursor: pointer;
+    display: block !important;
+}
+.list-icon-hidden {
+    display: none;
+}

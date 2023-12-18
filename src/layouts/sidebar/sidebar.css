@@ -1,0 +1,24 @@
+.active-custom {
+  background-color: rgba(105, 108, 255, 0.16) !important;
+  color: #696cff !important;
+}
+
+.list-item:hover {
+  color: #566a7f;
+  background-color: rgba(67, 89, 113, 0.04);
+  cursor: pointer;
+}
+
+.list-item {
+    border-radius: 5px;
+    width: 100%;
+    color: #697a8d;
+}
+@media (max-width: 997px) {
+  .header-with-margin {
+    margin-left: 0;
+  }
+  .sidebar-hidden {
+    display: none;
+  }
+}
